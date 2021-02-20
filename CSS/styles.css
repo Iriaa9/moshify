@@ -59,7 +59,7 @@ p {
   }
 }
 
-/*Links*/
+/* Links */
 
 a {
   text-decoration: none;
@@ -88,7 +88,7 @@ a {
   }
 }
 
-/*Bagdes*/
+/* Bagdes */
 
 .badge {
   border-radius: 20px;
@@ -119,7 +119,7 @@ a {
   }
 }
 
-/*Lists*/
+/* Lists */
 
 .list {
   list-style: none;
@@ -148,7 +148,7 @@ a {
   }
 }
 
-/*Icons*/
+/* Icons */
 
 .icon {
   width: 40px;
@@ -169,7 +169,7 @@ a {
   align-items: center;
 }
 
-/*Buttons*/
+/* Buttons */
 
 .btn {
   border-radius: 40px;
@@ -229,6 +229,25 @@ a {
 
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/* Inputs */
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
