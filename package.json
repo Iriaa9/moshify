@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "node-forge": "^0.10.0",
+    "parcel": "^2.0.0-beta",
     "parcel-bundler": "^1.3.1"
   }
 }
